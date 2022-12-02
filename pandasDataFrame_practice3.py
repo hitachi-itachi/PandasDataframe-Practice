@@ -10,4 +10,4 @@ exam_data = {
 
 
 exam = pd.DataFrame(exam_data, index = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']) #creating your own creating index
-print(exam.info()) # .info() return a summary of the dataframe
+print(exam.info()) # .info() return a summary of the dataframe help
