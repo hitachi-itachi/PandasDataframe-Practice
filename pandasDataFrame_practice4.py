@@ -11,5 +11,5 @@ exam_data = {
 
 exam = pd.DataFrame(exam_data, index = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']) #creating your own creating index
 
-print(exam.loc["a","b","c"]) #using a list of indexes, since your indexes is changed you have to change as well.
+
 print(exam.iloc[:3]) #using purely just integer
